@@ -38,9 +38,21 @@ function skill_func() {
     document.getElementById("skills").style.display = "";
     document.getElementById("bd-grid").style.display = "none";
     document.getElementById('certificate').style.display = "none";
+    
+    document.getElementById('experience').style.display = "none";
 }
 function certificate_func() {
     document.getElementById('certificate').style.display = "";
     document.getElementById('skills').style.display = "none";
     document.getElementById("bd-grid").style.display = "none";
+    
+    document.getElementById('experience').style.display = "none";
+}
+
+function experience_func() {
+    document.getElementById('experience').style.display = "";
+    document.getElementById('skills').style.display = "none";
+    document.getElementById("bd-grid").style.display = "none";
+    
+    document.getElementById('certificate').style.display = "none";
 }

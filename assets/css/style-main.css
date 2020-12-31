@@ -55,7 +55,12 @@
     margin-top: 80px;
 }
 .skill-text{
-	width:400px;
+	width: 400px;
+	margin: 0 auto;
+}
+.skill-texts{
+	width: 80%;
+	margin: 0 auto;
 }
 .skill-img{
 	width:600px;
